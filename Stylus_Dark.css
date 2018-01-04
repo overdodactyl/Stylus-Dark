@@ -1,7 +1,9 @@
-/*! Stylus Dark - ShadowFox v1.0 (2018-01-04) */
 @-moz-document regexp("chrome-extension://.*"),
 regexp("moz-extension://.*") {
-  #help-popup,
+  /*! Stylus-Dark v1.0. (2018-01-04)
+      Repository: https://github.com/overdodactyl/Stylus-Dark
+      License:    https://creativecommons.org/licenses/by-sa/4.0/  */
+#help-popup,
   #sections,
   .newUI .target,
   body {
