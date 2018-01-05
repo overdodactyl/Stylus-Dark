@@ -5,7 +5,8 @@
 
       Code Mirror based on Firefox */
 
-  body {
+  body,
+  #notes {
       background: #38383d !important;
   	  color: #b1b1b3 !important;
   }
