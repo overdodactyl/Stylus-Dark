@@ -149,7 +149,7 @@
 
   .active #filters-stats {
       background-color: #45a1ff !important;
-  	border-color: #45a1ff !important;
+  	  border-color: #45a1ff !important;
   }
 
   #reset-filters {
@@ -162,6 +162,15 @@
   .CodeMirror {
       border: solid #4a4a4f 1px;
       border-radius: 4px !important;
+  }
+
+  .Codemirror-hints {
+      background: #353B48 !important;
+      border-color: #737373 !important;
+  }
+
+  .Codemirror-hint {
+	   color: #d7d7db !important;
   }
 
 
