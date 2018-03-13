@@ -1,12 +1,12 @@
 @-moz-document regexp("chrome-extension://.*"),
 regexp("moz-extension://.*") {
-  /*! Stylus-Dark v1.1. (2018-01-04)
+  /*! Stylus-Dark v1.2 (2018-03-13)
       Repository: https://github.com/overdodactyl/Stylus-Dark
       License:    https://creativecommons.org/licenses/by-sa/4.0/
 
       Code Mirror based on Firefox
 */
-#notes,
+  #notes,
   body {
     background: #38383d!important;
     color: #b1b1b3!important
@@ -38,6 +38,17 @@ regexp("moz-extension://.*") {
   #message-box-title,
   body {
     background: #2a2a2e!important
+  }
+  .search-result {
+    background: #4a4a4f!important;
+    border-color: #737373!important
+  }
+  .search-result:hover {
+    border-color: #b1b1b3!important
+  }
+  .search-result-meta {
+    background-color: #4a4a4f!important;
+    color: #b1b1b3!important
   }
   button,
   input:not([type]),
