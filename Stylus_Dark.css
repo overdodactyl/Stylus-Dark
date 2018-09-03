@@ -238,4 +238,7 @@ regexp("moz-extension://.*") {
     outline: rgba(255,255,255,.25) solid 1px!important;
     color: #fff!important
   }
+  select {
+    color: silver;
+  }
 }
