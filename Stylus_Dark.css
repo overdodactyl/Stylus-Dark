@@ -241,4 +241,7 @@ regexp("moz-extension://.*") {
   select {
     color: silver;
   }
+  option, optgroup {
+    background-color: #2a2a2e
+  }
 }
