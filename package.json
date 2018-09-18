@@ -1,0 +1,29 @@
+{
+  "name": "stylus-dark",
+  "version": "1.0.0",
+  "description": "a dark theme for stylus based on shadowfox",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "minify-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/overdodactyl/Stylus-Dark.git"
+  },
+  "keywords": [
+    "dark",
+    "theme",
+    "stylus",
+    "shadowfox"
+  ],
+  "author": "overdodactyl",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/overdodactyl/Stylus-Dark/issues"
+  },
+  "homepage": "https://github.com/overdodactyl/Stylus-Dark#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.10.0"
+  }
+}
