@@ -1,11 +1,16 @@
+/* ==UserStyle==
+@name         Stylus Dark
+@version      1.3.0
+@description  Dark Stylus theme based on ShadowFox
+@namespace    https://github.com/overdodactyl/Stylus-Dark
+@author       overdodactyl
+@homepageURL  https://github.com/overdodactyl/Stylus-Dark
+@supportURL   https://github.com/overdodactyl/Stylus-Dark/issues
+@updateURL    https://raw.githubusercontent.com/overdodactyl/Stylus-Dark/master/stylus-dark.user.css 
+@license      CC-BY-SA-4.0
+==/UserStyle== */
 @-moz-document regexp("chrome-extension://.*"),
 regexp("moz-extension://.*") {
-  /*! Stylus-Dark v1.3 (2018-09-14)
-      Repository: https://github.com/overdodactyl/Stylus-Dark
-      License:    https://creativecommons.org/licenses/by-sa/4.0/
-
-      Code Mirror based on Firefox
-*/
   #notes,
   body {
     background: #38383d!important;
