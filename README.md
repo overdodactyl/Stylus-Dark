@@ -6,7 +6,9 @@ This dark theme is specifically designed to match the dark mode used by Firefox'
 
 # Installation
 
-This theme is hosted on userstyles.org: [Link](https://userstyles.org/styles/153739/stylus-dark-shadowfox).
+This theme can be installed directly from github: [Link](https://raw.githubusercontent.com/overdodactyl/Stylus-Dark/master/stylus-dark.user.css)
+
+This theme is also hosted on userstyles.org: [Link](https://userstyles.org/styles/153739/stylus-dark-shadowfox).
 
 # Status
 
