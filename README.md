@@ -1,3 +1,4 @@
+[![Install with userstyles.org](https://img.shields.io/badge/Install%20with-userstyles.org-%233498db.svg)](https://userstyles.org/styles/153739/stylus-dark-shadowfox)
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-285959.svg)](https://raw.githubusercontent.com/overdodactyl/Stylus-Dark/master/stylus-dark.user.css)
 
 # Stylus-Dark
