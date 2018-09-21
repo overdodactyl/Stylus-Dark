@@ -65,6 +65,7 @@ regexp("moz-extension://.*") {
   }
   .applies-to li,
   .firefox select,
+  .sorter-selection select,
   input {
     background-color: #38383d!important;
     color: silver!important;
