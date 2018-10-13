@@ -25,5 +25,8 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.10.0"
+  },
+  "devDependencies": {
+    "ver": "^3.0.0"
   }
 }
