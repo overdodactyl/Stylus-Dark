@@ -1,6 +1,6 @@
 {
   "name": "stylus-dark",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "description": "a dark theme for stylus based on shadowfox",
   "main": "gulpfile.js",
   "scripts": {
@@ -25,5 +25,8 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.10.0"
+  },
+  "devDependencies": {
+    "ver": "^3.0.0"
   }
 }
