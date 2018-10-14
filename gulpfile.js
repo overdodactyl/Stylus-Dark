@@ -5,7 +5,7 @@ var cleanCSS = require('gulp-clean-css');
 var exec = require('child_process').exec;
 
 gulp.task('minify-css', () => {
-  return gulp.src(['Stylus_Dark.css'])
+  return gulp.src(['stylus-dark.user.css'])
     .pipe(cleanCSS({
       level : 2 ,
       format: 'beautify'
