@@ -93,6 +93,13 @@ regexp("moz-extension://.*") {
   a:visited {
     color: #e1e1e1!important
   }
+  .dropdown-content {
+    background: #2a2a2e!important
+  }
+  .dropdown-content a:hover {
+    background: #2a2a2e!important;
+    color: #45a1ff!important
+  }
   #save-button:after {
     content: 'd'!important
   }
