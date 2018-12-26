@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Stylus Dark
-@version      1.3.3
+@version      1.3.4
 @description  Dark Stylus theme based on ShadowFox
 @namespace    https://github.com/overdodactyl/Stylus-Dark
 @author       overdodactyl
@@ -100,10 +100,10 @@ regexp("moz-extension://.*") {
     background: #2a2a2e!important;
     color: #45a1ff!important
   }
-  #save-button:after {
+  #save-button:lang(en):after {
     content: 'd'!important
   }
-  body.dirty #save-button:after {
+  body.dirty #save-button:lang(en):after {
     content: '?'!important
   }
   .newUI .entry:hover .svg-icon:hover,
