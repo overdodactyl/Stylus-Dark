@@ -14,6 +14,7 @@
 @var color bg3 "Check box and input color" #38383d
 @var color bg4 "Button Colors" #2a2a2e
 @var color bg5 "Style editor background" #2a2a2e
+@var color bg6 "Background surrounding code sections" #2a2a2e
 ==/UserStyle== */
 @-moz-document regexp("chrome-extension://.*"),
 regexp("moz-extension://.*") {
@@ -48,7 +49,7 @@ regexp("moz-extension://.*") {
   #message-box-buttons,
   #message-box-title,
   body {
-    background: #2a2a2e!important
+    background: var(--bg6)!important
   }
   .search-result {
     background: #4a4a4f!important;
