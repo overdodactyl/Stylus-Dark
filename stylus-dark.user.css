@@ -8,6 +8,13 @@
 @supportURL   https://github.com/overdodactyl/Stylus-Dark/issues
 @updateURL    https://raw.githubusercontent.com/overdodactyl/Stylus-Dark/master/stylus-dark.user.css 
 @license      CC-BY-SA-4.0
+
+@var color bg1 "Main Background Color" #38383d
+@var color bg2 "Side Panel Background" #2a2a2e
+@var color bg3 "Check box and input color" #38383d
+@var color bg4 "Button Colors" #2a2a2e
+@var color bg5 "Style editor background" #2a2a2e
+@var color bg6 "Background surrounding code sections" #2a2a2e
 ==/UserStyle== */
 @-moz-document regexp("chrome-extension://.*"),
 regexp("moz-extension://.*") {
@@ -18,7 +25,7 @@ regexp("moz-extension://.*") {
   }
   #header {
     color: silver!important;
-    background: #2a2a2e!important;
+    background: var(--bg2)!important;
     border-style: none!important
   }
   #stylus-popup {
@@ -42,7 +49,7 @@ regexp("moz-extension://.*") {
   #message-box-buttons,
   #message-box-title,
   body {
-    background: #2a2a2e!important
+    background: var(--bg6)!important
   }
   .search-result {
     background: #4a4a4f!important;
@@ -61,12 +68,12 @@ regexp("moz-extension://.*") {
     font-family: arial,sans-serif!important
   }
   input[type=checkbox]:not(.slider) {
-    background: #38383d!important
+    background: var(--bg3)!important
   }
   .firefox select,
   .sorter-selection select,
   input:not(.slider) {
-    background-color: #38383d!important;
+    background-color: var(--bg3)!important;
     color: silver!important;
     border: 1px solid #4a4a4f!important
   }
@@ -78,7 +85,7 @@ regexp("moz-extension://.*") {
     background-color: transparent!important
   }
   button {
-    background: #2a2a2e!important;
+    background: var(--bg4)!important;
     border: 1px solid #484848!important;
     color: silver!important;
     border-radius: 3px!important
@@ -127,7 +134,7 @@ regexp("moz-extension://.*") {
     color: #b1b1b3!important
   }
   .newUI .entry {
-    background: #38383d!important
+    background: var(--bg1)!important
   }
   .newUI .entry:hover {
     background: #2a2a2e!important
@@ -164,7 +171,7 @@ regexp("moz-extension://.*") {
     color: #d7d7db!important
   }
   .CodeMirror {
-    background: #2a2a2e!important;
+    background: var(--bg5)!important;
     color: #b1b1b3!important
   }
   div.CodeMirror-selected {
@@ -181,7 +188,7 @@ regexp("moz-extension://.*") {
     background: #353b48!important
   }
   .CodeMirror-gutters {
-    background: #2a2a2e!important;
+    background: var(--bg5)!important;
     border-right: 0 solid #4a4a4f!important
   }
   .CodeMirror-guttermarker,
