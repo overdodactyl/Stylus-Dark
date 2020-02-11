@@ -11,6 +11,26 @@
 ==/UserStyle== */
 @-moz-document regexp("chrome-extension://.*"),
 regexp("moz-extension://.*") {
+  .onoffswitch input + span::before {
+    transition: linear 0.2s!important;
+  }
+  #options {
+    background-color: #39393d!important;
+  }
+  #options-title {
+    background-color: #2a2a2e!important;
+  }
+  input[type="radio"]:checked:after {
+    background-color: silver!important;
+  }
+  .sorter-selection select,
+  .dropdown-content a {
+    color: silver!important;
+    background-color: #39393d!important;
+  }
+  .dropdown-content a:hover {
+    background-color: #4a4a4f!important;
+  }
   #notes,
   body {
     background: #38383d!important;
