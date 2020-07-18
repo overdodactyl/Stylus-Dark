@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Stylus Dark
-@version      1.3.4
+@version      1.3.5
 @description  Dark Stylus theme based on ShadowFox
 @namespace    https://github.com/overdodactyl/Stylus-Dark
 @author       overdodactyl
@@ -11,6 +11,7 @@
 ==/UserStyle== */
 @-moz-document regexp("chrome-extension://.*"),
 regexp("moz-extension://.*") {
+  #options,
   #notes,
   body {
     background: #38383d!important;
@@ -251,7 +252,7 @@ regexp("moz-extension://.*") {
     color: #fff!important
   }
   select {
-    color: silver
+    color: silver!important
   }
   optgroup,
   option {
@@ -262,5 +263,8 @@ regexp("moz-extension://.*") {
   }
   .menu-items-wrapper {
     background-color: #4a4a4f;
+  }
+  #options-header {
+    background: unset;
   }
 }
