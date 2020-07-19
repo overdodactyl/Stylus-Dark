@@ -11,7 +11,7 @@
 ==/UserStyle== */
 @-moz-document regexp("chrome-extension://.*"),
 regexp("moz-extension://.*") {
-  #options,
+  body#stylus-options #options,
   #notes,
   body {
     background: #38383d!important;
