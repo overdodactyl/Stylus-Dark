@@ -69,7 +69,7 @@ regexp("moz-extension://.*") {
   input:not(.slider) {
     background-color: #38383d!important;
     color: silver!important;
-    border: 1px solid #4a4a4f!important
+    border: 1px solid #747477!important
   }
   .filter-selection select {
     background-color: transparent!important;
@@ -266,5 +266,8 @@ regexp("moz-extension://.*") {
   }
   #options-title {
     background: unset;
+  }
+  input[type="radio"]:checked:after {
+    background-color: #d7d7db;
   }
 }
