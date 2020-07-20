@@ -270,4 +270,7 @@ regexp("moz-extension://.*") {
   input[type="radio"]:checked:after {
     background-color: #d7d7db;
   }
+  .onoffswitch input + span {
+    background-color: #2a2a2e !important;
+  }
 }
