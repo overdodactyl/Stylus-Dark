@@ -273,4 +273,10 @@ regexp("moz-extension://.*") {
   .onoffswitch input + span {
     background-color: #2a2a2e !important;
   }
+  [disabled] {
+    opacity: 50%;
+  }
+  button[disabled]:hover {
+    color: unset !important;
+  }
 }
