@@ -265,7 +265,8 @@ regexp("moz-extension://.*") {
     background-color: #4a4a4f;
   }
   #options-title {
-    background: unset;
+    background: #2a2a2e;
+    color: #b1b1b3;
   }
   input[type="radio"]:checked:after {
     background-color: #d7d7db;
