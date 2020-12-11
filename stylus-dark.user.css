@@ -13,7 +13,7 @@
 regexp("moz-extension://.*") {
   body#stylus-options #options,
   #notes,
-  body:not(#stylus-options) {
+  body:not(#stylus-options):not(#stylus-popup) {
     background: #38383d!important;
     color: #b1b1b3!important
   }
@@ -42,7 +42,7 @@ regexp("moz-extension://.*") {
   #message-box > div,
   #message-box-buttons,
   #message-box-title,
-  body:not(#stylus-options) {
+  body:not(#stylus-options):not(#stylus-popup) {
     background: #2a2a2e!important
   }
   .search-result {
