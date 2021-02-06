@@ -136,7 +136,7 @@ regexp("moz-extension://.*") {
   .disabled h2::after,
   .entry.usercss .style-name-link::after {
     border: 1px solid #504e4e!important;
-    color: #e1e1e1!important
+    color: #e1e1e1!important;
     background-color: #504e4e!important;
   }
   .svg-icon.select-arrow {
