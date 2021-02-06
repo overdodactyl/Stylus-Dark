@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Stylus Dark
-@version      1.3.4
+@version      1.3.5
 @description  Dark Stylus theme based on ShadowFox
 @namespace    https://github.com/overdodactyl/Stylus-Dark
 @author       overdodactyl
@@ -11,8 +11,9 @@
 ==/UserStyle== */
 @-moz-document regexp("chrome-extension://.*"),
 regexp("moz-extension://.*") {
+  body#stylus-options #options,
   #notes,
-  body {
+  body:not(#stylus-options):not(#stylus-popup) {
     background: #38383d!important;
     color: #b1b1b3!important
   }
@@ -34,14 +35,15 @@ regexp("moz-extension://.*") {
   }
   #help-popup,
   #sections,
-  .newUI .target {
+  .newUI .target,
+  #message-box-contents {
     color: #b1b1b3!important
   }
   #help-popup,
   #message-box > div,
   #message-box-buttons,
   #message-box-title,
-  body {
+  body:not(#stylus-options):not(#stylus-popup) {
     background: #2a2a2e!important
   }
   .search-result {
@@ -68,7 +70,7 @@ regexp("moz-extension://.*") {
   input:not(.slider) {
     background-color: #38383d!important;
     color: silver!important;
-    border: 1px solid #4a4a4f!important
+    border: 1px solid #747477!important
   }
   .filter-selection select {
     background-color: transparent!important;
@@ -132,8 +134,11 @@ regexp("moz-extension://.*") {
   .newUI .entry:hover {
     background: #2a2a2e!important
   }
-  .disabled h2::after {
-    border: 1px solid #444!important
+  .disabled h2::after,
+  .entry.usercss .style-name-link::after {
+    border: 1px solid #504e4e!important;
+    color: #e1e1e1!important;
+    background-color: #504e4e!important;
   }
   .svg-icon.select-arrow {
     fill: silver!important
@@ -251,7 +256,7 @@ regexp("moz-extension://.*") {
     color: #fff!important
   }
   select {
-    color: silver
+    color: silver!important
   }
   optgroup,
   option {
@@ -259,5 +264,24 @@ regexp("moz-extension://.*") {
   }
   #confirm > div {
     background-color: #4a4a4f
+  }
+  .menu-items-wrapper {
+    background-color: #4a4a4f;
+  }
+  #options-title {
+    background: #2a2a2e;
+    color: #b1b1b3;
+  }
+  input[type="radio"]:checked:after {
+    background-color: #d7d7db;
+  }
+  .onoffswitch input + span {
+    background-color: #2a2a2e !important;
+  }
+  [disabled] {
+    opacity: 50%;
+  }
+  button[disabled]:hover {
+    color: unset !important;
   }
 }
