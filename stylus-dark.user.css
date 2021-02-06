@@ -133,8 +133,10 @@ regexp("moz-extension://.*") {
   .newUI .entry:hover {
     background: #2a2a2e!important
   }
-  .disabled h2::after {
-    border: 1px solid #444!important
+  .disabled h2::after,
+  .entry.usercss .style-name-link::after {
+    border: 1px solid #444!important;
+    color: #e1e1e1!important
   }
   .svg-icon.select-arrow {
     fill: silver!important
