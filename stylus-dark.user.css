@@ -35,7 +35,8 @@ regexp("moz-extension://.*") {
   }
   #help-popup,
   #sections,
-  .newUI .target {
+  .newUI .target,
+  #message-box-contents {
     color: #b1b1b3!important
   }
   #help-popup,
